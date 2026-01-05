@@ -1,9 +1,4 @@
 # gamebanana_dl
-没问题。这份文档是基于**“带进度条常驻 + 断点记忆功能”**的版本（即你觉得下载进度条不消失很好的那一版）编写的。
-
-你可以将以下内容保存为 `README.md` 或者直接作为使用说明分享给其他人。
-
----
 
 # GameBanana 批量下载助手 (GameBanana Mod Downloader)
 
@@ -35,10 +30,10 @@ pip install requests tqdm
 
 ## 2. 如何使用
 
-1. **保存代码**：将 Python 代码保存为文件，例如 `gb_downloader.py`。
+1. **下载文件**：下载文件。
 2. **运行脚本**：在终端中运行该脚本：
 ```bash
-python gb_downloader.py
+python gamebanana_dl.py
 
 ```
 
@@ -102,7 +97,7 @@ GAME_ID = 8552  # 默认为原神
 
 ```
 
-将 `8552` 修改为目标游戏的 ID 即可（例如 CS2 是 4248，可以在 GameBanana 对应游戏主页 URL 中找到）。
+将 `8552` 修改为目标游戏的 ID 即可。
 
 ### Q4: 进度条太多刷屏了怎么办？
 
